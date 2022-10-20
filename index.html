@@ -6,6 +6,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css"/>
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.png">
 	</head>
 	<body class="is-preload">
 
@@ -13,7 +14,7 @@
 			<section id="header">
 				<header>
 					<span class="image avatar"><img src="images/avatar_test.jpg" alt="" /></span>
-					<h1 id="logo"><a href="#">Abel Kent</a></h1>
+					<h1 id="logo">Abel Kent</a></h1>
 					<p>Python developer, data scientist & computer science graduate</p>
 				</header>
 				<nav id="nav">
@@ -22,6 +23,7 @@
 						<li><a href="#two">Skills & experience</a></li>
 						<li><a href="#three">Previous work</a></li>
 						<li><a href="#four">Certificates & Awards</a></li>
+						<li><a href="#five">Contact me</a></li>
 					</ul>
 				</nav>
 				<footer>
@@ -41,21 +43,24 @@
 
 						<!-- One -->
 							<section id="one">
+								<!-- ATTEMPTED VIDEO BANNER
+								<div class = "container" style="overflow-x:hidden; height: 250px; overflow-y: hidden; width: fit-content; border:0">
+									<video loop autoplay muted height>
+										<source src = "images/Matrix.mp4" type = "video/mp4">
+
+									</video>
+								</div>
+								-->
+								
 								<div class="image main" data-position="center">
 									<img src="images/banner_test.jpg" alt="" />
 								</div>
-
-								<!--<div class = "image main" data-position="centre" height = "10"> 
-									<video id = "header video test" autoplay muted loop poster = "images/banner_test.jpg" style = "height: auto; width: auto;">
-										<source src = "images/Matrix.mp4" type = "video/mp4">
-									</video>
-								</div> <-->
-
+								
 
 								<div class="container">
 									<header>
-										<h2>Hello world :)</h2>
-										<p class = "minor">I am an enthusiastic software developer based out of London. 
+										<h2 style="text-align: center; font-size: 26"><b>Hello world :)</b></h2>
+										<p >I am an enthusiastic software developer based out of London. 
 											I started coding as a teen, absolutely fell in love with it and haven't stopped since.
 											I recently graduated from the University of York with a Masters and Bachelors in computer science and am open to work.</p>
 										</header>
@@ -67,10 +72,11 @@
 							<section id="two">
 								<div class="container">
 									<h3>Core skills</h3>
-									<ul class="feature-icons">
+									<ul class="feature-icons" style = "text-align: center;">
 										<li class="icon brands fa-python">Python software developer</li>
 										<li class="icon solid fa-eye">Computer vision expertise</li>
-										<li class="icon solid fa-brain">Machine learning expertise</li>
+										<li class="icon solid fa-brain">Machine learning engineer</li>
+										<li class="icon solid fa-network-wired">Neural Network Engineer</li>
 										<li class="icon solid fa-pen">Strong technical writer</li>
 										<li class="icon solid fa-smile">Strong presentation and verbal communication skills</li>
 										<li class="icon solid fa-users">Strong team member and co-ordinator</li>
@@ -85,7 +91,7 @@
 									<p>Some examples the kinds of projects I have worked on in the past, for additional projects and code have a look on my <a href = "https://github.com/abelkent">Github</a> </p>
 									<div class="features">
 										<article>
-											<a class="image" control loop><img src="images/inD screenshot.png" alt=""/></a>
+											<a class="image" style="max-height: auto; max-width:auto;"><img src="images/inD screenshot.png" alt=""/></a>
 											<div class="inner">
 												<h4>Abnormal motion detection with trajectory and deep learning</h4>
 												<p>My MSc Thesis research project: The development of an autoencoder for the detection of abnormalities within the inD dataset</p>
@@ -93,14 +99,14 @@
 										</article>
 										<article>
 											
-											<a class="image"><img src="images/HAR man jogging.jpg" alt="" /></a>
+											<a class="image" style="max-height: auto; max-width:auto;"><img src="images/HAR man jogging.jpg" alt="" /></a>
 											<div class="inner">
 												<h4>Human Action Recognition from video sequences using Artificial Neural Networks</h4>
 												<p>My BEng disseration research project: The development of a CNN-ANN for the classification of actions within the UFC101 dataset.</p>
 											</div>
 										</article>
 										<article>
-											<a class="image"><img src="images/kroy screenshot.png" alt="" /></a>
+											<a class="image" style="max-height: auto; max-width:auto;"><img src="images/kroy screenshot.png" alt=""/></a>
 											<div class="inner">
 												<h4>KROY</h4>
 												<p>A team design project involving the development of a playable game based on client specifications and feedback</p>
@@ -113,15 +119,55 @@
 
 						<!-- Four -->
 						<section id="four">
-							<div class="container">
+							<div class="container" style = "overflow-x: auto;">
+
+								
 								<h3> Certificates & Awards</h3>
-								<p style = "text-align: center;">
-								<img style = "vertical-align: middle; padding: 10px" src = "images/UoY crest.png", alt = "UoY crest" width = 100 height= 100 float = right padding = 10 > Msc Advanced Computer Science - University of York
-								<br>
-								<img style = "vertical-align: middle; padding: 10px" src = "images/UoY crest.png", alt = "UoY crest" width = 100 height= 100  padding = "10px"> BEng Computer Science - University of York - <i>(2:1)</i>
-								<br>
-								<img style = "vertical-align: middle; padding: 10px" src = "images/Jack Petchey Foundation logo.png", alt = "JPF logo", width = 200, height = 100, float = right> Jack Petchey Award - 2018
-								</p>
+
+								<table style="text-align: center; align-items: center">
+								<tr>
+									<style>
+										td {vertical-align: middle;}
+									</style>
+									<td> 
+										<img src = "images/UoY crest.png" alt = "UoY crest" style = "vertical-align: middle; max-height:100px; max-width:100px">
+									</td>
+									<td vertical>
+										Master of Science: Advanced Computer Science<br>University of York
+									</td>
+								</tr>
+
+								<tr>
+									<td>
+										<img src = "images/UoY crest.png", alt = "UoY crest" style = "max-width: 100px; max-height:100px">
+									</td>
+									<td>
+										Bachelors of Engineering: Computer Science<br>University of York
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<img src = "images/Jack Petchey Foundation logo.png", alt = "JPF logo" style="max-width: 278px; max-height:100px">
+									</td>
+									<td>
+										Jack Petchey Award
+									</td>
+								</tr>
+								
+								</table>
+						</section>
+
+
+						<section id = "five">
+							<div class = "container">
+
+								<h3> Contact me</h3>
+								<div>
+									<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdTq2CM45yHRhQF-mm8m_PkGnRpLu0f0_dixCsLC-BeUS9iLA/viewform?embedded=true" 
+									width = "100%" scrolling="no" height = "800px" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+								</div>
+
 							</div>
 						</section>
 
@@ -131,7 +177,7 @@
 					<section id="footer" style = "text-align: center;">
 						<div class="container">
 							<ul class="copyright">
-								<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>&copy; Untitled - All rights reserved</li><li>Original design by: <a href="http://html5up.net">HTML5 UP</a></li>
 							</ul>
 						</div>
 					</section>
